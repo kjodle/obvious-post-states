@@ -1,42 +1,38 @@
 .post-state {
 	background: #999999;
-	border-radius: 2px;
+	border-radius: 10px;
 	color: #ffffff;
 	display: inline-block;
 	font-size: 12px;
-	font-weight: 400;
-	margin: -1px 10px 5px 0;
+	font-weight: normal;
+	margin: -1px 10px 5px 10px;
 	padding: 1px 5px;
 	vertical-align: top;
+	float: right;
+	width: 120px;
+	text-align: center;
 }
-.admin-color-fresh .post-state {
-	background: #333333;
+
+.status-future .post-state {
+	background: #2a8991;
 }
-.admin-color-light .post-state {
-	background: #888888;
+.status-private .post-state {
+	background: #667;
 }
-.admin-color-blue .post-state {
-	background: #4796b3;
+.post-password-required .post-state {
+	background: #912a46;
 }
-.admin-color-coffee .post-state {
-	background: #59524c;
+.status-draft .post-state {
+	background: #999;
 }
-.admin-color-ectoplasm .post-state {
-	background: #523f6d;
+.status-sticky .post-state {
+	background: #2a3491;
 }
-.admin-color-midnight .post-state {
-	background: #363b3f;
-}
-.admin-color-ocean .post-state {
-	background: #627c83;
-}
-.admin-color-sunrise .post-state {
-	background: #cf4944;
+
+.row-actions {
+	padding: 4px 0 0 0;
 }
 td.post-title strong,
 td.page-title strong {
 	display: inline;
-}
-.row-actions {
-	padding: 4px 0 0 0;
 }
